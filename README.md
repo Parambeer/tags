@@ -1,5 +1,5 @@
 # tags
-Finding tags
+Finding tags: (If we have post tags like 'code', 'tag1', 'php', 'wordpress', 'tag2', 'tag3', 'javascript')
 
 
 I have added 2 files named 'tags.php' (main solution) and 'tags2.php'.
@@ -21,4 +21,4 @@ Explanation for file tags2.php (alternate):
 1. First we call a function all_tags().
 2. Now we would check if that specific post contains those relevant tags by using php in-built function 'has_tag'.
 3. If relevant tags match from the tags list then we store the result in the variable and return it which finally displays on the screen.
-4. Otherwise (if relevant tags are not present in the post), we store 'nil' in the variable, return it, and print it on screen.
+4. Otherwise (if relevant post tags are not present), we store 'nil' in the variable, return it, and print it on screen.
