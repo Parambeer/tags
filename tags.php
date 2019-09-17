@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php 
-        function allTags() {
+        function all_tags() {
             // get all the tags in the form an array with specific post id and store in variable
             $tags = get_the_tags($post->ID);
             // if $tags variable contains actual tags of the post
@@ -40,7 +40,7 @@
             return trim($output, $separator);
         }
         // call the function and prints the result
-        print allTags();  
+        print all_tags();  
     ?>
 </body>
 </html>
