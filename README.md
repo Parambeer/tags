@@ -4,7 +4,7 @@ Finding tags
 
 I have added a 2 files named 'tags.php' and 'tags2.php'.
 'tags.php' file is having all the functionality required and also put comments on each line that how this code with function.
-'tags2.php' file is an alternate solution that shows whether an array contains the relevant tags. Also added comments on this file.
+'tags2.php' file is an alternate solution that shows whether a post contains the relevant tags. Also added comments on this file.
 
 Explanation for file tags.php (main):
 
